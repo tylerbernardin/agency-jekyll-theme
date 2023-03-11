@@ -9,4 +9,19 @@ $gray-500: #adb5bd !default;
 $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-900: #a9a9a9 !default;
+
+@font-face {
+  font-family: 'Big Shoulders Display';
+  src: url($baseurl + "/fonts/BigShouldersDisplay.ttf")
+}
+
+@font-face {
+  font-family: "League Gothic";
+  src: url($baseurl + "/fonts/LeagueGothic-Regular-VariableFont_wdth.ttf");
+}
+
+@font-face {
+  font-family: "Telegraf";
+  src: url($baseurl + "/fonts/PPTelegraf-Regular.otf");
+}

@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Every defect demands respect.
+    text:
+    button: Enter Site
     buttonlink: "#services"
 
   services:
@@ -33,7 +33,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text:
     section: portfolio
     closebutton: "Close Project"
 
@@ -69,8 +69,8 @@ en: &DEFAULT_EN
     end: "Be Part <br> of Our <br> Story!"
 
   about:
-    title: "About Us"
-    text: "our story"
+    title: "About Me"
+    text:
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
@@ -130,8 +130,8 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contact"
+    text:
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
