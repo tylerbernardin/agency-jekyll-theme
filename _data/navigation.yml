@@ -13,12 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: "Portfolio"
       section: portfolio
-    - title: "Timeline"
+    - title: "Experience"
       section: timeline
     - title: "About"
       section: about
-    - title: "Team"
-      section: team
     - title: "Contact"
       section: contact
 en-US:

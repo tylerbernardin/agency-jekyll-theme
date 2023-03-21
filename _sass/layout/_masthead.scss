@@ -8,17 +8,18 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 165px; //Space above all of the text in the center of the masthead page
+    padding-bottom: 50px; //Below
     .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
+      font-size: 50px;
+      font-style: normal;
       line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
+      margin-bottom: 75px; // Margin below title text
+      font-family: "Big Shoulders Display";
+      //@include serif-font;
     }
     .intro-heading {
-      color: #1244c4;
+      color: #ffffff;
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
@@ -26,18 +27,19 @@ header.masthead {
       @include heading-font;
     }
   }
-}
+} // For full width site
 @media (min-width: 768px) {
   header.masthead {
     .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
+      padding-top: 285px; //Space above all of the text in the center of the masthead page
+      padding-bottom: 65px; //Below
       .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
+        font-size: 80px;
+        font-style: normal;
         line-height: 40px;
-        margin-bottom: 25px;
-        @include serif-font;
+        margin-bottom: 210px; // Margin below title text
+        font-family: "Big Shoulders Display";
+        //@include serif-font;
       }
       .intro-heading {
         font-size: 75px;
