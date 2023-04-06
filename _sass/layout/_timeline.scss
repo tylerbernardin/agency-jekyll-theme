@@ -57,9 +57,9 @@
       border-radius: 100%;
       background-color: $primary;
       h4 {
-        font-size: 10px;
-        line-height: 14px;
-        margin-top: 12px;
+        font-size: 20px;
+        line-height: 18px;
+        margin-top: 14px;
       }
     }
     &.timeline-inverted > .timeline-panel {
@@ -99,7 +99,7 @@
     }
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) { // ---------------------Narrow---------------------------
   .timeline {
     &:before {
       left: 50%;
@@ -119,9 +119,9 @@
         height: 100px;
         margin-left: -50px;
         h4 {
-          font-size: 13px;
-          line-height: 18px;
-          margin-top: 16px;
+          font-size: 24px; // Font size for last bubble in timeline
+          line-height: 20px;
+          margin-top: 23px;
         }
       }
       &.timeline-inverted > .timeline-panel {
@@ -132,7 +132,7 @@
     }
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) { // --------------------- Mid Wide---------------------------
   .timeline {
     > li {
       min-height: 150px;
@@ -144,9 +144,9 @@
         height: 150px;
         margin-left: -75px;
         h4 {
-          font-size: 18px;
+          font-size: 30px; // Font size for last bubble in timeline
           line-height: 26px;
-          margin-top: 30px;
+          margin-top: 40px;
         }
       }
       &.timeline-inverted > .timeline-panel {
@@ -155,7 +155,7 @@
     }
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { // ---------------------Widest---------------------------
   .timeline {
     > li {
       min-height: 170px;
@@ -167,7 +167,7 @@
         height: 170px;
         margin-left: -85px;
         h4 {
-          margin-top: 40px;
+          margin-top: 49px;
         }
       }
       &.timeline-inverted > .timeline-panel {

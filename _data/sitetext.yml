@@ -46,38 +46,39 @@ en: &DEFAULT_EN
     events:
       - title: "California State Parks"
         year: "2011-2014"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "**Ocean Lifeguard** <br> My first job as an Ocean Lifeguard was to provide public safety through knowledge of ocean conditions and first aid. I was responsible or hundreds of beach visitors on a daily basis."
         image: assets/img/StateBeach.jpg
         alt:
       - title: "City of Huntington Beach"
         year: "2014-2022"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        desc: "**Ocean Lifeguard Supervisor III** <br> As a supervisor I evaluated performance, gave constructive feedback, and provided on-the-job training to a large team of coworkers. I provided professional customer service by assisting the public and educating beach visitors about ocean conditions."
         image: assets/img/CityBeach.jpg
         alt:
       - title: "Fitness Startup"
         year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+        desc: "**Product Engineer** <br> I modeled and fabricated prototypes using additive manufacturing to test functionality and user experience of my client’s idea for a new fitness product."
+        image: assets/img/Fitness Icon.jpg
         alt: image alt text
       - title: "Capsule Manufacturing"
         year: "2021-2022"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+        desc: "**Mechanical Engineer II** <br> I played a lead role in the design, engineering, and  fabricating modular retail coffee bars and prefabricated building units. I worked in a fast-paced environment and got hands-on production experience, including operation of a Zund sheet CNC machine."
+        image: assets/img/Capsule.jpg
         alt:
       - title: "Split Peak Designs"
         year: "2022-Present"
-        desc: "Freakin amazing products"
-        image: assets/img/timeline/3.jpg
+        desc: "**Owner** <br> This is a passion project of mine to design, create, and sell soft goods products for travel and the outdoors. Each product is made by hand, by me, with close attention to detail."
+        image: assets/img/Salt Water.jpg
         alt:
         # you can enforce the alignment
         # align: left
-    end: "Your <br> Team"
+    end: Your <br> Team
 
   about:
     title: "About Me"
     text:
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+    body: <p align="justify"> <span style="color:black"> <font size="5"> <strong> Hi, my name is Tyler Bernardin. I’m a creator and problem solver from Southern California with a background in mechanical engineering. <br><br> I graduated from Cal State Long Beach in 2019 with a BS in Mechanical Engineering and have industry experience in 3D design, prototyping, fabrication, and manufacturing. Currently, I’m running a small business called Split Peak Designs where I make soft goods geared toward travel and adventure. <br><br> With a love for the outdoors and a passion for design, I’m interested in creating products and solutions that will have a positive effect on our environment.
+          </strong></font></span> </p>
+    section: about #
 
   clients:
     section: clients
@@ -152,16 +153,12 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/tyler-bernardin
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://www.instagram.com/splitpeakdesigns/
         icon: "fab fa-instagram"
+      - url: https://www.etsy.com/shop/SplitPeak?ref=profile_header
+        icon: "fab fa-etsy"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

@@ -1,0 +1,24 @@
+// Styling for the contact section
+section#about {
+  background-color: $gray-900;
+  background-image: url("#{$about-image}");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 15%;
+  .section-heading {
+    color: $black;
+    text-align: center;
+    //margin-left: 25%;
+
+
+  }
+  p { //This is for the text body of the About page. For some reason it is "p".
+    line-height: 25px;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    //text-align: right;
+    //padding-left:40%;
+  }
+}

@@ -17,10 +17,10 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : TYLER BERNARDIN
-email      : bernardintyler@gmail..com #this is also the email contact forms will go to
+email      : bernardintyler@gmail.com #this is also the email contact forms will go to
 description: "Site description"
 author     : Tyler Bernardin
-  # logo:     #optional, defaults to site title
+#logo    : "/assets/img/splitpeak.svg"
   # path: assets\img\clients\creative-market.jpg
 # height: 60 #height in px, defaults to 52px
 
